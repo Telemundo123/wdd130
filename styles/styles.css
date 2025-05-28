@@ -1,22 +1,27 @@
+:root {
+    --clr-lightblu:#00008b;
+    --clr-light:#ffffff;
+    --clr-dark-:#000;
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--clr-lightblu);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: var(--clr-light);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--clr-lightblu);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--clr-dark-);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -55,6 +60,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--clr-dark-);
     text-align: center;
 }
