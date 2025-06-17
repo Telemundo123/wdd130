@@ -223,3 +223,85 @@ footer p {
     color: black;
 }
 
+.team h2 {
+    margin-bottom: 20px;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.employee-grid figure img {
+    border-radius: 5px;
+}
+
+.employee-grid figure figcaption {
+    background-color: none;
+    color: #000;
+    align-content: center;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+label, input, button, textarea {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
