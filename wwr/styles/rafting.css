@@ -333,7 +333,6 @@ button:hover {
     padding: 20px 40px;
     border-radius: 8px;
     max-width: 500px;
-    max-height: auto;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
