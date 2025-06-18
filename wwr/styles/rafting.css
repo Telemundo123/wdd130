@@ -163,7 +163,7 @@ footer nav img {
     text-decoration: none;
 }
 .socialmedia a:hover img {
-    filter: brightness(1.2); /* or use a border or background */
+    filter: brightness(1.2);
     outline: 2px solid #000;
     background-color: var(--secondary-color);
 }
@@ -304,3 +304,292 @@ button:hover {
     margin-top: 5px;
 }
 
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+    margin-top: 0; 
+    margin-bottom: 30px;
+}
+.hero img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    max-height: 600px; 
+}
+
+.hero h1 {
+    max-width: 98%;
+}
+
+.hero-content {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content form {
+    max-width: 350px;
+    max-height: 150px;
+    border-radius: 5px;
+}
+
+.newsletter-signup h3 {
+    color: #000;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.hero-content h1 {
+    position: absolute;
+    top: 20px;
+}
+
+.newsletter-signup input[type="text"],
+.newsletter-signup input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    margin-top: 5px;
+    border: 1px solid var(--accent2-color);
+    border-radius: 5px;
+    width: 320px;
+    height: 30px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+.newsletter-signup {
+    border-radius: 5px;
+    max-width: 370px;
+    max-height: 270px;
+}
+
+form button {
+    max-width: 150px;
+    max-height: 40px;
+    margin-left: 87px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.call-to-action {
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color:transparent;
+    color: var(--secondary-color);
+}
+
+.newsletter-signup button:hover {
+    background-color: var(--secondary-color);
+}
+
+.call-to-action a {
+    display: inline-block;
+    background-color:var(--secondary-color);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.call-to-action a:hover {
+    background-color: var(--accent3-color);
+    color: var(--accent1-color);
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black; 
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.grid-item h3 {
+    font-family: var(--heading-font);
+    color: #000;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.grid-item p {
+    font-family: var(--body-font);
+    line-height: 1.6;
+    text-align: justify;
+    background-color: transparent;
+}
+
+.full-width-cta {
+    grid-column: 1 / -1;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 30px;
+    text-align: center;
+}
+
+.full-width-cta h2 {
+    color: #fff;
+    background-color: transparent;
+}
+
+.full-width-cta p {
+    color:black;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.full-width-cta .action-button {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.full-width-cta .action-button:hover {
+    background-color: var(--accent3-color);
+    color: var(--accent1-color);
+}
+/* The Trips Page */
+
+.trips-hero {
+    text-align: center;
+    border-radius: 8px;
+    padding: 40px 20px;
+    background-color: #0E2148;
+    color: white; 
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.trips-hero p {
+    background-color: transparent;
+    color: white;
+}
+.trips-hero h1 {
+    margin-top: 150px;
+    font-size: 2rem;
+    width: 840px;
+    border-radius: 8px;
+    margin-left: -34px;
+}
+.call-to-action-trips a {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    color: #FBF3C1;
+}
+.call-to-action-trips {
+    background-color: #FE5D26;
+    width: 300px;
+    border-radius: 8px;
+    margin-left: 228px;
+}
+.call-to-action-trips:hover {
+    background-color: var(--secondary-color);
+}
+.trip-offerings h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+.trip-card {
+    background-color: var(--accent1-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trip-card img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.trip-grid p {
+    background-color: transparent;
+}
+.trip-card h3 {
+    background-color: #0E2148;
+    color: #eee;
+    border-radius: 5px;
+}
+.all-trips-table h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: var(--accent1-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    border: 1px solid var(--primary-color);
+    padding: 12px 15px;
+    text-align: left;
+    color: black;
+    font-family: var(--body-font);
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+tr:hover {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
